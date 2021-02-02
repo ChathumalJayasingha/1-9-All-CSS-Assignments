@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        body {
+            height: 99vh;
+            width: 401vw;
+            border: 1px double black;
+        }
+        
+        aside>div {
+            border: 1px double red;
+            width: 100vw;
+            height: 98vh;
+            float: left;
+            animation: slideOne 20s;
+        }
+        
+        aside>:nth-child(1) {
+            background-image: url(assets/1198092.jpg);
+        }
+        
+        aside>:nth-child(2) {
+            background-image: url(assets/453510.jpg);
+        }
+        
+        aside>:nth-child(3) {
+            background-image: url(assets/453571.jpg);
+        }
+        
+        aside>:nth-child(4) {
+            background-image: url(assets/453646.jpg);
+        }
+        
+        @keyframes slideOne {
+            0% {}
+            100% {
+                transform: translateX(-3800px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </aside>
+
+</body>
+
+</html>
